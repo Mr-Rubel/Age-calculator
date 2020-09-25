@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="age-calculator.css">
+    <title>age calculator</title>
+</head>
+<body>
+    <div class="age-calculator">
+        <h1>This is a age-calculator</h1>
+        <div class="your-birth-day">
+            <h2>Here give your birth-day-date.</h2>
+            <p class="pera-1">Year</p>
+            <input type="text" class="btn-1" placeholder="Year" >
+            <p class="pera-2">Month</p>
+            <input type="text" class="btn-2" placeholder="Month"  >
+            <p class="pera-3">Days</p>
+            <input type="text" class="btn-3" placeholder="Days" >
+        </div>
+        <div class="todays date">
+            <h2>Here give todays date.</h2>
+            <p class="tpera-1">Year</p>
+            <input type="text" class="tbtn-1" placeholder="Year" >
+            <p class="tpera-2">Month</p>
+            <input type="text" class="tbtn-2" placeholder="Month"  >
+            <p class="tpera-3">Days</p>
+            <input type="text" class="tbtn-3" placeholder="Days" >
+        </div>
+        <input type="button" value="calculate" onclick="calculate()" class="calc-btn">
+        <div class="result">
+            <input type="text" placeholder="Year" class="rbtn-1" readonly>
+            <input type="text" placeholder="Month" class="rbtn-2" readonly>
+            <input type="text" placeholder="Days" class="rbtn-3" readonly>
+        </div>
+    </div>
+    <script src="age.js"></script>
+</body>
+</html>

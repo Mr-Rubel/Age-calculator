@@ -1,0 +1,166 @@
+.age-calculator{
+    background-color: gray;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 2%;
+}
+h1{
+    margin: auto;
+    text-align: center;
+    border: 3px solid yellowgreen;
+    border-radius: 2%;
+    width: 850px;
+}
+.your-birth-day{
+    /* background-color: rgb(99, 99, 62); */
+    position: absolute;
+    left: 247px;
+    width: 400px;
+}
+.pera-1{
+    font-size: 26px;
+    position: relative;
+    margin-left: 43px;
+    top: 0px;
+}
+.pera-2{
+    font-size: 26px;
+    position: relative;
+    top: -33px;
+    left: 41px;
+}
+.pera-3{
+    font-size: 26px;
+    position: relative;
+    top: -78px;
+    left: 42px;
+}
+h2{
+    /* color: red; */
+}
+input.btn-1 {
+    margin: 0px 0px 0px 30px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    position: relative;
+    top: -27px;
+    left: 10px;
+}
+input.btn-2 {
+    padding: 10px 4px 10px 10px;
+    position: relative;
+    top: -61px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    left: 38px;
+}
+input.btn-3 {
+    padding: 10px 4px 10px 10px;
+    position: relative;
+    top: -102px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    left: 39px;
+}
+.todays.date {
+    float: right;
+    width: 400px;
+    position: relative;
+    right: 73px;
+    /* background: #63633e; */
+}
+.tpera-1{
+    font-size: 26px;
+    position: relative;
+    margin-left: 43px;
+    top: 0px;
+}
+.tpera-2{
+    font-size: 26px;
+    position: relative;
+    margin-left: 43px;
+    top: -38px;
+}
+.tpera-3{
+    font-size: 26px;
+    position: relative;
+    margin-left: 43px;
+    top: -82px;
+}
+input.tbtn-1 {
+    margin: 0px 0px 0px 30px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    position: relative;
+    top: -27px;
+    left: 10px;
+}
+input.tbtn-2 {
+    margin: 0px 0px 0px 30px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    position: relative;
+    top: -65px;
+    left: 10px;
+}
+input.tbtn-3 {
+    margin: 0px 0px 0px 30px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    position: relative;
+    top: -104px;
+    left: 10px;
+}
+input.calc-btn {
+    position: relative;
+    top: 213px;
+    left: 363px;
+    font-size: 26px;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    width: 167px;
+    height: 52px;
+}
+.result {
+    position: relative;
+    top: 297px;
+    left: 261px;
+    width: 500px;
+}
+input.rbtn-1 {
+    font-size: 20px;
+    padding: 8px 1px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    outline: none;
+}
+input.rbtn-2 {
+    font-size: 20px;
+    padding: 8px 1px;
+    border-radius: 10px;
+    width: 131px;
+    text-align: center;
+    outline: none;
+}
+input.rbtn-3 {
+    font-size: 20px;
+    padding: 8px 1px;
+    border-radius: 10px;
+    width: 151px;
+    text-align: center;
+    outline: none;
+}
